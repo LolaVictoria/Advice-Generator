@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Manrope:wght@800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  background: hsl(218, 23%, 16%);
+
+
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.card {
+  background: hsl(217, 19%, 24%);
+  max-width: 400px;
+  text-align: center;
+  padding: 30px;
+  border-radius: 12px;
+  position: relative;
+}
+
+.title {
+  color: hsl(150, 100%, 66%);
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 3px;
+  padding-bottom: 16px;
+}
+
+.quote {
+  font-size: 18px;
+  color: white;
+  letter-spacing: 1.1px;
+  margin-bottom: 20px;
+}
+
+.divider {
+  width: 90%;
+  display: block;
+  padding-bottom: 10px;
+  margin: 0 auto;
+}
+
+#btn {
+  position: absolute;
+  left: 50%;
+  bottom: -36px;
+  transform: translateX(-50%);
+  background: hsl(150, 100%, 66%);
+  border: none;
+  padding: 15px 17px;
+  outline: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+@media only screen and(max-width:425px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 12px;
+    padding: 20px;
+    */
+  }
+}
+.attribution {
+  font-size: 11px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+
+.attribution a {
+  color: hsl(150, 100%, 66%);
+  text-decoration: none;
+
+}
